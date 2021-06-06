@@ -1,18 +1,13 @@
-import { Fragment } from 'react';
-import './App.css'
+import { Component } from 'react';
+import IterationSample from './IterationSample';
 
-function App() {
-  const name = '리액트'
-  return (
-    <div className="react">{name}
-      <a>
-        <div>
 
-        </div>
-      </a>
-    </div>
-
-  );
+class App extends Component {
+  render() {
+    return (
+      <IterationSample />
+    );
+  }
 }
 
 export default App;
